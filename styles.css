@@ -54,6 +54,7 @@ nav#navbar {
     position: absolute;
     top: 30%;
     padding: 12px;
+    flex-wrap: wrap;
 }
 
 .headings{
@@ -108,12 +109,14 @@ nav#navbar {
 
     border: 5px solid white;
     color: white;
+  flex-wrap: wrap;
 }
 #about h2{
     text-align: center;
     padding: 10px;
     text-decoration: underline blue;
     border-radius: 20px;
+    flex-wrap: wrap;
 
 }
 .d-flex{
@@ -140,15 +143,28 @@ meter{
 
 
 
-/* #about{
+/* Resume Section */
+#resume{
     display: flex;
-    flex-wrap: wrap;
-  
-    flex-direction: column;   
-    box-sizing: border-box;
-    padding: 15px;
-    margin-bottom: 50px;
-} */
+    gap: 30px;
+    margin: 20px;
+    box-shadow: 3px 3px 3px rgba(0, green, blue, 0.3);
+    padding: 20px;
+    background: brown;
+    flex-direction: column;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headingsh2{
+    display: flex;
+    
+}
+
 
 /*
 #pic{
@@ -179,9 +195,14 @@ meter{
 /* Services Section */
 
 #services{
+  
     display: flex;
-    flex-direction: column;
+    gap: 30px;
+    margin: 20px;
+    box-shadow: 3px 3px 3px rgba(0, green, blue, 0.3);
     padding: 20px;
+    background: brown;
+    justify-content: center;
 }
 
 .row{
@@ -222,6 +243,64 @@ meter{
 
 
 /* Projects */
+#projects{    
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+    box-shadow: 3px 3px 3px rgba(0, green, blue, 0.3);
+    padding: 20px;
+    background: brown;
+    justify-content: center;
+
+}
+
+/* Testimonials */
+
+#testimonials{
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+    box-shadow: 3px 3px 3px rgba(0, green, blue, 0.3);
+    padding: 20px;
+    background: brown;
+    justify-content: center;
+}
+
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
 
 
 
