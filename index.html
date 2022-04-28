@@ -7,27 +7,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+    
+    </style>
+    <title>Raaids Portfolio</title>
 </head>
-<body>
-    <nav id="navbar">
-        <ul class="nav-links">
-            <li class="nav-link"><a href="#home" class="link">Home</a></li>
-            <li class="nav-link"><a href="#about" class="link">About</a></li>
-            <li class="nav-link"><a href="#resume" class="link">Resume</a></li>
-            <li class="nav-link"><a href="#projects" class="link">Projects</a></li>
-            <li class="nav-link"><a href="#testimonials" class="link">Testimonials</a></li>
-            <li class="nav-link"><a href="#contact" class="link">Contact</a></li>
+<body> 
+    
+
+
+
+    <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light pt-5 pb-4">
+    <div class="container-md">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-Danger fw-bold">
+          <i class="bi bi-book-half"></i>
+          Abdullatief
+        </span>
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+          </li>
+          
         </ul>
-        <button class="nav-button"><i class="fa-solid fa-bars"></i></button>
-    </nav>
+      </div>
+    </div>
+  </nav>
+
+    
+
+
+
+
+
+   
     <!-- End of Navbar-->
     <!--Beginning of Landing-->
 
 <section id="home">
    <div class="main">
        <h1 class="headings"> I am Raaid Abdullatief</h1>
-       <h2 class="headingsh2">Developer</h2>
+       <h2 class="headingsh2">Fullstack Developer</h2>
        <a href="https://github.com/Raaid-Latief"><button class="btn">Hire Me</button></a>
    </div>
    </section>
@@ -35,8 +84,83 @@
 
 
 
+   <!-- ======= About Section ======= -->
+   <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="Raaid (4).JPG" class="img-fluid rounded b-shadow-a" alt="Raaid">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7 h-100">
+                    <div class="about-info mt-5">
+                      <p><span class="title-s">Name: </span> <span>Raaid Abdullatief</span></p>
+                      <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
+                      <p><span class="title-s">Email: </span> <span>raaidlatiefgbr@gmail.com</span></p>
+                      <p><span class="title-s">Phone: </span> <span>076 199 3236</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf mb-4">
+                  <p class="title-s fw-bold">Skills</p>
+                  <span>HTML</span> <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span>CSS</span> <span class="pull-right">75%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span>Bootstrap</span> <span class="pull-right">50%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <span>Javascript</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About me
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
+                    imperdiet et, porttitor
+                    at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
+                    porttitor accumsan tincidunt.
+                  </p>
+                  <p class="lead">
+                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
+                    porttitor volutpat. Vestibulum
+                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                  </p>
+                  <p class="lead">
+                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                    Nulla porttitor accumsan
+                    tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End About Section -->
 
 
+<!--
 <section id="about">
 <div>
     <div class="d-flex">
@@ -99,7 +223,7 @@
 
 
 </section>
-
+-->
 
 <!-- <section id="about">
     <h1 class="headings">About</h1>
@@ -115,6 +239,81 @@
         </div>
     </div>
 </section> -->
+
+
+<!-- Resume Section -->
+
+<!-- ======= Resume Section ======= -->
+
+<section id="resume" class="resume">
+    <div class="container" data-aos="fade-up">
+
+      <div class="headings">
+        <h2>Resume</h2> </div>
+     
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Summary</h3>
+          <div class="resume-item pb-0">
+            <h4>Raaid Abdullatief</h4>
+            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+            <p>
+            <ul>
+              <li>Western Cape, South Africa</li>
+              <li>076 199 3236</li>
+              <li>raaidlatiefgbr@gmail.com</li>
+            </ul>
+            </p>
+          </div>
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Matric Bachelors Pass</h4>
+            <h5>2016 - 2020</h5>
+            <p><em>Claremont Highschool</em></p>
+            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+          </div>
+          <div class="resume-item">
+            <h4>Fullstack Developer </h4>
+            <h5>2022 - Present</h5>
+            <p><em>Savio Life Choices Academy</em></p>
+            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item mt-9">
+            <h4>IT Technician Learnership</h4>
+            <h5>2021-2022</h5>
+            <p><em>Pointer SA</em></p>
+            <p>
+            <ul>
+              <li>Using MySql to create a database of software on employees computers</li>
+              <li>Assembling of various products used in vehicle tracking devices</li>
+              <li>Recording and packaging stock for companies that work with Pointer SA</li>
+              <li></li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Graphic design specialist</h4>
+            <h5>2017 - 2018</h5>
+            <p><em>Stepping Stone Advertising, New York, NY</em></p>
+            <p>
+            <ul>
+              <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+              <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+              <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+              <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
 
 
 <section id="services">
@@ -189,7 +388,7 @@
 
 
 <section id="testimonials">
-    <div class="headings">Testimonials</div>
+    <div class="headings">Testimonials
   
 
  
@@ -210,8 +409,8 @@
     <p><span>Linda Kholi</span> CEO at Mighty Schools.</p>
     <p>John Doe saved us from a web disaster.</p>
   </div>
-  
-
+  </div>
+</div>
 
 </section>
 
@@ -243,9 +442,6 @@
                     </tr>
                     <tr>
                        <td> Subject:
-                        
-            
-            
                        </td>
                        <td><input type="text" placeholder="Subject"></td>
                     </tr>
@@ -295,6 +491,7 @@
     </div>
 </footer>
   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
 

@@ -11,7 +11,7 @@ body{
 }
 
 /* Navbar */
-
+/*
 nav#navbar {
     position: fixed;
     width: 100%;
@@ -19,6 +19,7 @@ nav#navbar {
     z-index:  100; 
 }
 
+*/
 
 
 /* Home Section */
@@ -102,9 +103,9 @@ nav#navbar {
     background: brown;
 
 }
-
+/*
 #about > div{
-    /* display: flex; */
+    /* display: flex; 
     width: 50%;
     margin-right: 50px;
     padding: 20px;
@@ -113,6 +114,8 @@ nav#navbar {
     color: white;
   flex-wrap: wrap;
 }
+*/
+/*
 #about h2{
     text-align: center;
     padding: 10px;
@@ -143,7 +146,7 @@ meter{
 
 }
 
-
+*/
 
 /* Resume Section */
 #resume{
@@ -383,7 +386,7 @@ meter{
 
 
 /*Navigation Styles*/
-
+/*
 ul.nav-links {
     display: flex;
     justify-content: flex-end;
@@ -413,6 +416,8 @@ nav#navbar {
 display: inline-block;
 justify-content: end;
 }
+
+*/
 
 /*Landing Styles*/
 section{
@@ -518,9 +523,7 @@ footer{
 
 
 
-
-
-
+/*
 
 
 .nav-button{ 
@@ -530,6 +533,7 @@ footer{
     border: 3px solid white;
     color: white;
     transition: .6s ease;  
+    justify-content: end;
 }
 
 
@@ -541,10 +545,10 @@ footer{
     box-shadow: 0 0 5px white, 0 0 10px white 0 0 15px white;
 }
 
-
+*/
 
 /* Media Queries */
-
+/*
 @media  screen and (max-width:700px) {
     .nav-button{
         display: block;
@@ -555,8 +559,7 @@ footer{
     }
     
 }
-
-
+*/
 
 
 
