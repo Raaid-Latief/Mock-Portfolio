@@ -262,7 +262,7 @@ meter{
 
 }
 
-/* Testimonials */
+/* Testimonials 
 
 #testimonials{
     display: flex;
@@ -310,7 +310,7 @@ meter{
     }
   }
 
-
+*/
 
 /* Contacts */
 
@@ -417,7 +417,21 @@ display: inline-block;
 justify-content: end;
 }
 
+
+
+
 */
+#testimonials{
+    background:
+     /* top, transparent red, faked with gradient */  linear-gradient(
+         rgba(13, 110, 253, 0.7),
+         rgba(13, 110, 253, 0.7)
+     ),
+     /* bottom, image */ url;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+}
 
 /*Landing Styles*/
 section{
